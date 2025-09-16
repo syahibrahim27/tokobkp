@@ -100,7 +100,7 @@ export default function VideoStore() {
       <footer className="border-t border-red-900/30 mt-10">
         <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-zinc-400 flex flex-col md:flex-row items-center justify-between gap-2">
           <p>© {new Date().getFullYear()} Tokobkp. All rights reserved.</p>
-          <a href="https://t.me/yourchannel" className="hover:text-white">Join Telegram Group</a>
+          <a href="https://t.me/+Jo85gdLsIpQ3MzM1" className="hover:text-white">Join Telegram Group</a>
         </div>
       </footer>
 
@@ -185,12 +185,12 @@ function CheckoutModal({ open, video, onClose, onConfirm }) {
         <h3 className="text-xl font-bold mb-4">Checkout {video.title}</h3>
         <p className="mb-2">Transfer ke rekening berikut:</p>
         <div className="rounded-xl border border-red-900/30 p-4 mb-4">
-          <div>BCA • 1234 5678 9012</div>
-          <div className="text-xs text-zinc-400">a.n Tokobkp</div>
+          <div>PERMATA • 8528081359899898</div>
+          <div className="text-xs text-zinc-400">a.n SUG*******</div>
         </div>
         <p className="mb-2">Atau bayar via QRIS:</p>
         <div className="rounded-xl border border-red-900/30 p-4 mb-4 text-center">
-          <img src="/qris.png" alt="QRIS" className="mx-auto h-40" />
+          <img src="/qris.jpg" alt="QRIS" className="mx-auto h-40" />
         </div>
         <p className="text-sm text-zinc-400">
           Setelah transfer, kirim bukti pembayaran ke Telegram untuk diverifikasi,
